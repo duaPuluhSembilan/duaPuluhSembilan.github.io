@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.accentText {
+    font-family: 'Roboto', sans-serif;
+}
+
+.strongText {
+    font-family: 'Raleway', sans-serif;
+}
+
+.normalText {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.typewriterText {
+    font-family: 'Lucida Sans Typewriter', sans-serif;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: auto;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+    color:#44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+    float: right;
+}
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+.footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+}
+.footer-menu ul li a:hover{
+    color: #27bcda;
+}
+
+.imgFrame {
+    --b: 10px; /* control the size */
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 3px solid #000;
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 3px,#0000 90deg,#000 0);
+}
+
+img.framed {
+    box-shadow:
+      -50px -50px 0 -40px #aa6b39,
+      50px 50px 0 -40px #aa6b39;
+}
+  
+strong {
+    background-color: #ffff66;
+    
+}
+  
