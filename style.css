@@ -24,8 +24,6 @@ footer{
     background: #111;
     height: auto;
     width: auto;
-
-    padding-top: 40px;
     color: #fff;
 }
 .footer-bottom{
@@ -46,28 +44,7 @@ footer{
     font-size: 16px;
     text-decoration: none;
 }
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
-.footer-menu{
-    float: right;
-}
-.footer-menu ul{
-    display: flex;
-}
-.footer-menu ul li{
-    padding-right: 10px;
-    display: block;
-}
-.footer-menu ul li a{
-    color: #cfd2d6;
-    text-decoration: none;
-}
-.footer-menu ul li a:hover{
-    color: #27bcda;
-}
+
 
 .imgFrame {
     --b: 10px; /* control the size */
