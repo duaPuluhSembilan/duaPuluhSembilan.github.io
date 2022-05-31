@@ -16,18 +16,19 @@
 </head>
 <body>
     <div 
+        id="section-1"
         style="
             background: radial-gradient(circle at top, #2C061F , #282e3b)!important;
             height: 550px;
             width:auto;    
         "
-    >
+    >   
         <div class="pt-12 sm:pt-24 px-6 sm:px-64 sm:pt-44">
             <h3 class="text-3xl sm:text-2xl accentText" style="color: #e1d89f;animation: slideUp 1s ease 0s 1 normal forwards;">From your son & friends, we wish you the happiest birthday </h3>
             <h1 class="text-8xl mt-4 sm:text-9xl strongText" style="color: #D89216;animation: slideUp 1s ease 0.1s 1 normal forwards;">Sri Utami Wati</h1>    
         </div>
     </div>
-    <div style="background-image: url('bg-jogja.jpeg');height: 900px;background-size: cover;">
+    <div id="section-2" style="background-image: url('bg-jogja.jpeg');height: 900px;background-size: cover;">
         <div class="px-6 sm:px-64 relative">
             <img 
                 src="/mak-rehan.jpeg"
@@ -35,7 +36,7 @@
                 style="animation: slideLeft 1s ease 0.3s 1 normal forwards;border: 10px solid;border-color: rgba(64, 63, 71, 0.4);background-clip: padding-box;" alt=""
             >
             <div 
-                class="w-3/4 sm:w-1/3 absolute top-44 left-2 sm:left-80 p-5 about-mom" 
+                class="w-3/4 sm:w-1/3 absolute top-80 left-2 sm:left-80 p-5 about-mom" 
                 style="background-color: rgba(64, 63, 71, 0.6)!important;height:auto;border-radius: 2px;"
             >
                 <h2 class="text-3xl sm:text-4xl normalText my-2" style="color: #d2ae90;">Meet My Mother</h2>
@@ -43,8 +44,8 @@
             </div>
         </div>
     </div>
-    <div style="background-image: url('bg-jogja-final.jpg');height: 800px;background-size: cover;">
-        <div class="relative justify-center sm:px-64 ">
+    <div id="section-3">
+        <div class="relative justify-center sm:px-64 " style="background-image: url('bg-jogja-final.jpg');height: 800px;background-size: cover;">
             <img 
                 src="/rehan-and-brother-and-mom.jpeg" 
                 class="w-72 sm:w-1/4 absolute -top-52 left-10 sm:bottom-2 sm:left-2/3 p-4 framed our-moment-1" 
@@ -58,17 +59,17 @@
                 class="w-64 sm:w-1/4 absolute top-96 sm:-top-60 left-20 p-4 framed our-moment-2" 
             >
         </div>
-    </div>
-    <div 
-        class="flex justify-center p-6 " 
-        style="background-color: rgb(215, 215, 215)!important;border-radius: 5px;"
-    >
-        <div class="sm:w-1/2">
-            <h2 class="text-3xl text-center normalText mb-3 plus-mom-1" style="color: rgb(119, 71, 18);">What Makes My Mother Special</h2>
-            <p class="text-lg text-justify accentText plus-mom-2" style="color: rgb(158, 98, 32)">Kalau dilihat-lihat Ibu saya bukanlah manusia yang biasa. Saya melihat dengan mata saya sendiri bagaimana Ibu saya dapat mendorong kedua anaknya dan suaminya sendiri menjadi manusia terbaik, dan menurut saya itulah yang membuat ibu saya spesial.</p>
+        <div 
+            class="flex justify-center p-6 " 
+            style="background-color: rgb(215, 215, 215)!important;border-radius: 5px;"
+        >
+            <div class="sm:w-1/2">
+                <h2 class="text-3xl text-center normalText mb-3 plus-mom-1" style="color: rgb(119, 71, 18);">What Makes My Mother Special</h2>
+                <p class="text-lg text-justify accentText plus-mom-2" style="color: rgb(158, 98, 32)">Kalau dilihat-lihat Ibu saya bukanlah manusia yang biasa. Saya melihat dengan mata saya sendiri bagaimana Ibu saya dapat mendorong kedua anaknya dan suaminya sendiri menjadi manusia terbaik, dan menurut saya itulah yang membuat ibu saya spesial.</p>
+            </div>
         </div>
     </div>
-    <div class="h-2/3" style="background-image: url('paper-texture.jpg');background-size: cover;">
+    <div id="section-4" class="h-2/3" style="background-image: url('paper-texture.jpg');background-size: cover;">
         <div class="pt-10 sm:px-64">
             <h2 class="text-2xl px-6 sm:text-5xl text-right underline typewriterText sm:pt-32 sm:pb-16 testimony" style="color: black;">Words from Us</h2>
         </div>
@@ -150,7 +151,7 @@
             </div>
         </div>
     </div>
-    <div style="background-image: url('masjid.jpg');background-size:auto;">
+    <div id="section-5" style="background-image: url('masjid.jpg');background-size:auto;">
         <div class="p-8 closing-wish" style="background-color: rgba(33, 31, 41, 0.8)!important;">
             <h2 class="text-2xl text-center strongText" style="color: whitesmoke;">"Selamat ulang tahun mah semoga mamah selalu di sayang tuhan dan diberikan keberkahan umur serta kebaikan. Sehat selalu ya, akau sayang mama!"</h2>
             <p class="text-lg pt-4 text-center strongText" style="color: whitesmoke;">-Sincerely, from Reyhan</p>
@@ -164,6 +165,10 @@
             <p><a href="https://www.linkedin.com/in/adi-wira-pratama/">Adi Wira Pratama</a></p>
         </div>
     </footer>
+
+    
+
+    
 
     <script>
         const slideLeftObserver = new IntersectionObserver(entries => {
@@ -248,6 +253,7 @@
 
         wipeEnterObserver.observe(document.querySelector('.closing-wish'));
     </script>
+    
 </body>
 
 </html>

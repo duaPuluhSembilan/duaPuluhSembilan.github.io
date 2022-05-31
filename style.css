@@ -1,4 +1,7 @@
-html,
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -64,6 +67,14 @@ img.framed {
 strong {
     background-color: #ffff66;
     
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: rgb(255, 22, 22);
+	border-radius: 50%;
+	display: inline-block;
 }
 
 /* animations */
